@@ -2,7 +2,7 @@
  Theme Name:   Accelerate Theme Child
  Theme URI:    http://example.com/accelerate-theme-child/
  Description:  Accelerate Child Theme - Accelerate
- Author:       Ann Cascarano
+ Author:       Your Name!
  Author URI:   http://example.com
  Template:     accelerate-theme
  Version:      1.0.0
@@ -10,21 +10,20 @@
  Text Domain:  accelerate-theme-child
 */
 
+ 	
 @import url("../accelerate-theme/style.css");
 
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0) url("img/taxi-photo.jpg") no-repeat scroll left center / cover ;
 }
 
 #masthead {
-    background: none repeat scroll 0 0 #45ac9d;
+    background: #45ac9d none repeat scroll 0 0;
 }
 
 .button {
-    background: none repeat scroll 0 0 #45ac9d;
+    background: #45ac9d none repeat scroll 0 0;
 }
-
-/* Blog post on Front page */
 
 .blog-post {
 	width: 50%;
@@ -33,6 +32,7 @@
 .blog-post h4 {
 	font-size: 16px;
 	font-family: 'Montserrat';
+	font-weight: 300;
 	color: #a6a6a6;
 	text-transform: uppercase;
 }
@@ -41,12 +41,18 @@
 	font-size: 24px;
 	font-family: 'Montserrat';
 	font-weight: bold;
+	margin-bottom: 30px;
 }
 
 .blog-post .read-more-link {
-	font-size: 24px;
+	font-size: 16px;
 	font-family: 'Montserrat';
 	font-weight: bold;
+	font-weight: 300;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+.blog-post span {
+	font-size: 22px;
 }
