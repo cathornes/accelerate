@@ -13,8 +13,14 @@
  	
 @import url("../accelerate-theme/style.css");
 
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    font-size: 99%;
+}
+
 .home-page {
     background: rgba(0, 0, 0, 0) url("img/taxi-photo.jpg") no-repeat scroll left center / cover ;
+	margin-bottom: 20px;
 }
 
 #masthead {
@@ -23,6 +29,9 @@
 
 .button {
     background: #45ac9d none repeat scroll 0 0;
+	display: block;
+    margin: 0 auto;
+    width: 200px;
 }
 
 #masthead nav ul li {
@@ -32,6 +41,7 @@
 
 .blog-post {
 	width: 50%;
+	float: left;
 }
 
 .blog-post h4 {
@@ -62,7 +72,15 @@
 	font-size: 22px;
 }
 
-.featured-work h4 {
+.featured-work {
+	overflow: hidden;
+}
+
+.recent-posts {
+	overflow: hidden;
+}
+
+.our-services h4, .featured-work h4 {
 	font-size: 18px;
 	font-family: 'Montserrat';
 	font-weight: bold;
@@ -77,10 +95,14 @@
 	margin: 0;
 }
 
+.homepage-hero h1 {
+	font-size: 53px;
+}
+
 .individual-featured-work {
 	float: left;
 	margin-right: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .individual-featured-work:last-child {
@@ -92,14 +114,13 @@
 	font-size: 16px;
 	color: #333333;
 	font-weight: normal;
-	margin-bottom: 40px;
 }
 
 /* Case Studies */
 
 article.case-study {
 	margin: 40px 0 0;
-	clear: both;
+	overflow: hidden;
 }
 
 aside.case-study-sidebar {
@@ -133,3 +154,234 @@ aside.case-study-sidebar h2 {
 	font-weight: normal;
 	margin-bottom: 10px;
 }
+
+/* Contact Form */
+
+#ninja_forms_field_1_div_wrap {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+}
+
+#ninja_forms_field_2_div_wrap {
+	float: left;
+	width: 300px;
+}
+
+.label-above label {
+	font-size: 14px;
+	font-weight: normal !important;
+}
+
+#ninja_forms_field_5 {
+	float: right;
+	background: #45ac9d none repeat scroll 0 0;
+	color: #fff;
+	border: none;
+	padding: 15px 70px;
+	font-weight: bold;
+}
+
+#ninja_forms_field_5:hover {
+	background: #bfbfbf;
+}
+
+.ninja-forms-field {
+	border: 1px solid #bfbfbf;
+}
+
+.ninja-forms-success-msg {
+	color: #45ac9d;
+	font-size: 22px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* About Us Page */
+
+.about-page {
+    background: rgba(0, 0, 0, 0) url("img/taxi-photo.jpg") no-repeat scroll left bottom / cover ;
+	height: 240px;
+    margin: 0 0 30px;
+    padding: 100px 0;
+}
+
+.aboutpage-hero {
+	text-align:center;
+	width: 60%;
+    margin: 0 auto; 
+}
+
+.aboutpage-hero h1 {
+	color:white;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.main-color {
+	color: #45ac9d;
+}
+
+.left-icon {
+	float: left;
+	margin-right: 30px;
+}
+
+.icon {
+	width: 150px;
+}
+
+.icon-text {
+	float: left;
+	width: 780px;
+}
+
+.icon-text h4 {
+	float: left;
+	width: 780px;
+	margin-top: 0;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+.right-icon {
+	float: right;
+	margin-left: 30px;
+}
+
+.our-services {
+	text-align: center;	
+	margin-bottom: 30px;
+}
+
+.herobox {
+	margin: 0 auto; 
+	width: 40%;
+}
+
+.our-services h4 {
+	margin-bottom: 20px;
+}
+
+.about-section {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+
+
+
+.call-to-action {
+    margin: 0 auto; 
+	overflow: hidden;
+	display: inline-block;
+}
+
+.about-cta {
+	float: left;
+}
+
+.call-to-action h2 {
+	font-size: 24px;
+	float: left; 
+	margin-right: 30px;
+	margin-top: 25px;
+}
+
+.border {
+	border-top: 1px dotted #e3e1e1;
+	padding-top: 50px;
+	text-align: center;
+}
+
+/* 404 */
+
+.container-fourofour {
+	margin-top: 50px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 723px;
+	padding-top: 50px;
+	
+}
+
+.container-fourofour img {
+	float: left;
+	margin-right: 30px;
+	width: 193px;
+}
+
+.fourofour {
+	float: left;
+	width: 500px;
+}
+
+.fourofour h2 {
+	font-size: 28px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/* Tweets */
+.widget-area {
+	float: right;
+	width: 45%;
+}
+
+.widget-area h3 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	font-weight: 300;
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin: 35px 0px;
+}
+
+ul.tweets {
+	list-style-type: none;
+	margin-left: 0;
+	color: #3b3b3b;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+ul.tweets li {
+	line-height: 24px;
+}
+
+#sign-up {
+    font-size: 16px !important;
+	font-family: 'Montserrat'  !important;
+	font-weight: bold  !important;
+	font-weight: 300  !important;
+	color: #45ac9d  !important;
+	text-transform: uppercase  !important;
+	border: none;
+	padding: 0;
+}
+
+/* Newsletter Sign Up*/
+
+#mc4wp-form-1 label {
+    color: #3b3b3b;
+    font-size: 15px;
+    font-weight: normal;
+	line-height: 24px;
+}
+
+
+#email {
+	font-size: 12px;
+	height: 32px;
+	width: 230px;
+}
+
+.mc4wp-form-fields label {
+	margin-right: 10px;
+}
+
