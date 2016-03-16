@@ -17,7 +17,7 @@ get_header(); ?>
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
         	<div class="container-fourofour">
-                <img src="/accelerate/wp-content/uploads/2016/03/map.jpg" />
+                <img src="/wp-content/uploads/2016/03/map.jpg" />
                 <div class="fourofour">     
                     <h2>Whoops, Took a Wrong Turn...</h2>
                     <p>Sorry, this page no longer exists, never existed or has been moved. We feel like complete jerks for totally misleading you.</p>
